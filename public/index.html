@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auction App</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <header>
+    <h1>Auction App</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Paintings</h2>
+      <div id="paintings-list"></div>
+      <h3>Add New Painting</h3>
+      <form id="add-painting-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="artist" placeholder="Artist" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <input type="text" id="image" placeholder="Image Filename" required>
+        <input type="number" id="startingPrice" placeholder="Starting Price" required>
+        <input type="number" id="minStep" placeholder="Min Step" required>
+        <input type="number" id="maxStep" placeholder="Max Step" required>
+        <button type="submit">Add Painting</button>
+      </form>
+    </section>
+    <section>
+      <h2>Participants</h2>
+      <div id="participants-list"></div>
+      <h3>Add New Participant</h3>
+      <form id="add-participant-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="funds" placeholder="Funds" required>
+        <button type="submit">Add Participant</button>
+      </form>
+    </section>
+  </main>
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

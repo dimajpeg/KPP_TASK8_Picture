@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Soprano Italy",
+    "artist": "Dima Matushenko",
+    "description": "A stunning artwork showcasing a scene from Italy.",
+    "image": "the_soprano_italy.jpg",
+    "startingPrice": 75,
+    "minStep": 5,
+    "maxStep": 20
+  },
+  {
+    "id": 2,
+    "title": "Dima On Grove Street",
+    "artist": "Dima Matushenko",
+    "description": "A nostalgic piece inspired by Grove Street.",
+    "image": "dima_on_grove_street.jpg",
+    "startingPrice": 90,
+    "minStep": 10,
+    "maxStep": 25
+  },
+  {
+    "id": 3,
+    "title": "Dollars Bikini Botam",
+    "artist": "Dima Matushenko",
+    "description": "An imaginative artwork featuring dollar motifs.",
+    "image": "dollars_bikini_botam.jpg",
+    "startingPrice": 50,
+    "minStep": 5,
+    "maxStep": 15
+  },
+  {
+    "id": 4,
+    "title": "Sharp Roses",
+    "artist": "Dima Matushenko",
+    "description": "A vibrant composition of sharp roses.",
+    "image": "sharp_roses.jpg",
+    "startingPrice": 70,
+    "minStep": 10,
+    "maxStep": 25
+  },
+  {
+    "id": 5,
+    "title": "South Park",
+    "artist": "Dima Matushenko",
+    "description": "A fun and quirky depiction of South Park.",
+    "image": "south_park.jpg",
+    "startingPrice": 100,
+    "minStep": 10,
+    "maxStep": 30
+  }
+]
